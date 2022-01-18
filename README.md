@@ -10,6 +10,7 @@ install dependencies and start local dev server
 
 ```sh
 npm install
+add .env file | include this line SKIP_PREFLIGHT_CHECK=true
 npm start
 ```
 

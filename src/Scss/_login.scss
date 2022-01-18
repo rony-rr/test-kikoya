@@ -1,0 +1,27 @@
+@use "_vars.scss" as *;
+
+.bg-light {
+  padding: 30vh 30vw;
+  padding-left: 30vw !important;
+  padding-right: 30vw !important;
+  height: 100vh;
+
+  form {
+    .item-form {
+      margin-top: 1.5vh;
+      width: 100%;
+      label {
+        width: 25%;
+      }
+      input {
+        width: 75%;
+      }
+    }
+
+    .btn-login{
+        margin-top: 3vh;
+        align-self: center;
+        width: 100%;
+    }
+  }
+}
